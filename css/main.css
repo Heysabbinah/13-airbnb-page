@@ -61,8 +61,9 @@ h3 {
     font-weight: 550;
 }
 h5 {
-    font-weight: normal;
-    color:rgb(103, 103, 103);
+    font-weight: 400;
+    color:white;
+    font-size: 1.3em;
 }
 #thirdrow {
     margin-left: 10%;
@@ -70,7 +71,7 @@ h5 {
     margin-top: 2%;
 }
 
-/*--/////////////////////////  THIRD ROW  ////////////////////////////////////////////////*/
+/*--/////////////////////////  fourth ROW  ////////////////////////////////////////////////*/
 #fourthrow {
     margin-left: 37.5%;
     margin-right: auto;
@@ -84,4 +85,28 @@ h5 {
     font-size: 1.1em;
     font-weight: 600;
     color: rgb(84, 84, 84);
+}
+/*--/////////////////////////  sixth ROW  ////////////////////////////////////////////////*/
+
+
+#sixthcontent {
+    margin-left: 9%;
+}
+
+
+#fourthcta {
+    width: 320px;
+    padding: 11px;
+    font-size: 1.1em;
+    font-weight: 600;
+    color: rgb(84, 84, 84);
+}
+/*--/////////////////////////  slider jssor ////////////////////////////////////////////////*/
+
+
+/*--/////////////////////////  last row ////////////////////////////////////////////////*/
+
+#lastrow {
+    margin-left: 1%;
+    margin-right: 1%;
 }
