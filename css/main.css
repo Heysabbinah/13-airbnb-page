@@ -7,10 +7,14 @@ body {
     border: 1px solid white;
 }
 
-#textaccueil {
+.navbar-default {
+    position: relative;
+    background-color: rgba(41, 41, 41, 0);
+}
+#textaccueil h1 {
     font-family: sans-serif;
     font-variant: normal;
-    font-size: 5em;
+    font-size: 1.7em;
 }
 
 #ctahome {
@@ -47,7 +51,7 @@ body {
 #firstimage {
     width: 52%; /*-------- calcul % de la col avec inspecteur d element et
     ajustement de 53 a 52 % ---*/
-    margin-left: 11%;
+    margin-left: 12%;
 }
 
 /*--/////////////////////////  SECOND ROW  ////////////////////////////////////////////////*/
@@ -55,8 +59,7 @@ body {
 h3 {
     color: rgb(79, 77, 77);
     font-size: 2.3em;
-    margin-left: 4%;
-    margin-top: 5%;
+    margin-top: 2%;
     margin-bottom: 1%;
     font-weight: 550;
 }
@@ -67,13 +70,13 @@ h5 {
     font-weight: 400;
     color: rgb(79, 77, 77);
     font-size: 1.2em;
-    margin-right: 4%;
 }
 h4 {
     font-weight: 400;
     color:white;
     font-size: 1.3em;
 }
+#secondc
 #thirdrow {
     margin-left: 10%;
     margin-right: 10%;
@@ -82,9 +85,10 @@ h4 {
 
 /*--/////////////////////////  fourth ROW  ////////////////////////////////////////////////*/
 #fourthrow {
-    margin-left: 37.5%;
+    margin-left: 1.5%;
     margin-right: auto;
     margin-top: 3%;
+    text-align: center;
 
 }
 
@@ -122,7 +126,8 @@ h4 {
 /*--/////////////////////////  footer ////////////////////////////////////////////////*/
 
 footer{
-    height: 600px;
+    margin-top: 20px;
+    height: 450px;
     color: white;
 
 }
@@ -168,5 +173,33 @@ i {
     margin: 7px;
     font-size: 7px;
     color: white;
+
+}
+
+/* ///////////////////////////////// media smartphone ////////////////////////////////////////////
+///////////////////////////////////                  ///////////////////////////////////////////*/
+@media screen and (max-width: 600px) {
+
+#textaccueil h1 {
+    font-size: 1em;
+}
+#firstcontent {
+
+}
+#firstimage {
+    width: 52%; /*-------- calcul % de la col avec inspecteur d element et
+    ajustement de 53 a 52 % ---*/
+    margin-left: 2%;
+}
+#titre2 {
+    text-align: center;
+
+}
+#fourthrow {
+    margin-left: 5%;
+    text-align: center;
+
+}
+
 
 }
